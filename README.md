@@ -6,9 +6,8 @@
 # Fast PHP Page Module
 ## Module Skeleton for Development
 
-This is a simple backend featuring the windmill theme. It can act as a background admin panel for your deployed websites to get some insights and debugging informations. As much as control user management and more! You can copy this template and use this for your own project if required.   
+ This is just a skeleton for developers to quick deploy new modules and see a structure on the default modules directory. If you want to develope modules using the fast-php-page cms, this is a module skeleton you can start with! It contains all cms related folders and eplanations to make it easier for you to deploy and create modules. 
 
-You can also look inside this site module to get insights on how to build an admin panel using the windmill theme with fast-php-page cms!
 
 **This project is a module for the fast-php-page cms to always have the documentation for this template in hand! You can download this module out of your fast-php-page store if you are using the _administrator module!**
 
