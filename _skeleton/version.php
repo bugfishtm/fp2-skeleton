@@ -23,59 +23,21 @@
 		You should have received a copy of the GNU General Public License
 		along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	*/	
-	
-	// This is a template for a versioning file.
-	// It is urgent to put this in your code.
-	// You can change the version number, but leave the build at the end of it seperated by a dot!
-	// You can increase the build number, this will eventually lead to updated beeing installed in the _update folder if there are some available for newer build numbers.
-	// Other informations are for the store and internal systems.
-	
 	$x = array();
-	
-	// Identifier Name (Mostly for CMS Developers, just put something in here representing your module without "_" at the start.
 	$x["rname"] 		= "_skeleton";
+	$x["name"] 			= "Module Skeleton";
 	
-	// Build Number
-	$x["build"] 		= "212";
-	
-	// Version Number
-	$x["version"] 		= "2.".$x["build"];
-	
-	// Can be viewed in iframe?
-	$x["iframe"] 		= false;
-	
-	// Can be viewed as session?
-	$x["view"] 			= false;
-	
-	// Can be deployed multiple times?
+	$x["short"] 		= "This module contains the official documentation for you to get insights about integrated functions, classes templates and more! You can also find on <a href=\"https://bugfishtm.github.io\" rel='noopener' target=\"_blank\">https://bugfishtm.github.io</a>!";
+	$x["build"] 		= "100";
+	$x["version"] 		= "1.".$x["build"];
+	$x["iframe"] 		= true;
+	$x["view"] 			= true;
 	$x["singleuse"] 	= false;
-	
-	// Module Category
-	$x["cat"] 			= "dev";
-	
-	// Module Languages Available
-	$x["lang"] 			= array("en", "de");
-	
-	// Module License
-	$x["license"] 		= "MIT";
-	
-	// Module Creator Name
+	$x["cat"] 			= "documentation";
+	$x["license"] 		= "GPLv3";
 	$x["autor"] 		= "Jan-Maurice Dahlmanns";
-	
-	// Module Creator Name Pseudo
 	$x["pseudo"] 		= "Bugfish";
-	
-	// Module Creator Contact
 	$x["mail"] 			= "requests@bugfish.eu";
-	
-	// Module Website
 	$x["website"] 		= "www.bugfish.eu";
-	
-	// Module Name
-	$x["name"] 			= "Template: Module Skeleton";
-	
-	// Short Description
-	$x["short"] 		= "If you are a developer, you can investige this site modules skeleton to create an own module!";
-	
-	// Long Description
-	$x["description"] 	= "If you are a developer, you can investige this site modules skeleton to create an own module for the fast-php-page CMS! You can also find documentations at https://bugfishtm.github.io!";
+	$x["lang"] 			= array("en");
+	$x["description"] 	= $x["short"];

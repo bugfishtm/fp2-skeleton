@@ -25,7 +25,6 @@
 		
 		// Configuration Injection to be loaded after Initializations, after global_post injections!
 	*/ if(!is_array($object)) { @http_response_code(404); Header("Location: ../"); exit(); }
-	
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Yet can set up most site module configuration here
 	// Only loaded for site module. In the end of initialization

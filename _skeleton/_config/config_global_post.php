@@ -25,8 +25,6 @@
 		
 		// Global Configuration Injection on ALL Site Modules execution AFTER Initializations are done.
 	*/ if(!is_array($object)) { http_response_code(404); Header("Location: ../"); exit(); }
-	
-	
 	////////////////////////////////////////////////////////////////
 	// You can set up global configuration here, but be cautios.
 	// this is not advised! Modules with global configurations may be conflicts with other modules.
