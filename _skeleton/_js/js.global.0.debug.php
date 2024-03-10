@@ -28,4 +28,4 @@
 	// This will log javascript errors in backend table to be visible by administrators or permited users
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if(!is_array($object)) { @http_response_code(404); Header("Location: ../"); exit(); } 
-		$object["debug"]->js_error_script(_HIVE_URL_REL_."/_core/js_debug_action.php");
+		$object["debug"]->js_error_script(_HIVE_URL_REL_."/_core/_action/js_debug_action.php");
